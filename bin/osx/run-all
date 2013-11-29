@@ -6,7 +6,7 @@
 #for DEST in r2web{0{1..9},10} 
 do
 #	echo $DEST
-#	ssh alexd@$DEST /usr/bin/sudo /etc/init.d/httpd stop &
+#	ssh $DEST /usr/bin/sudo /etc/init.d/httpd stop &
 #	curl http://$DEST.razoo.com/br/version.txt
 #	ssh $DEST w
 #	curl http://$DEST.razoo.com/version.txt
