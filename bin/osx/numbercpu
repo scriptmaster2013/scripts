@@ -1,0 +1,2 @@
+system_profiler SPHardwareDataType
+sysctl -n hw.ncpu
